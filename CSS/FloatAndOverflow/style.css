@@ -1,0 +1,84 @@
+/* overflow - visible (by default) */
+/* position - static (by default) */
+/* Note - float and clear is used only for image and text , not for making layout purpose */
+
+
+.container{
+    /* width: 400px; */
+    /* height: 400px; */
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
+    /* overflow: auto; */
+    border: 2px solid red;
+    padding: 10px;
+    display: none;
+}
+
+p{
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.img1{
+    /* float: left; */
+    float: right;
+    padding: 10px;
+}
+
+.img2{
+    float: left;
+    padding: 10px;
+}
+
+.p1 {
+    clear: right;
+}
+
+.p2{
+    clear: left;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bigbox{
+    width: 400px;
+    height: 400px;
+    background-color: gainsboro;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    /* float: left; */
+    overflow: auto;
+}
+
+.b1{
+    background-color: red;
+    /* float: left; */
+}
+
+.b2{
+    background-color: blue;
+    /* float: left; */
+    float: right;
+    clear: left;
+}
+
+.b3{
+    background-color: green;
+    float: left;
+    clear: left;
+}
+
+.b4{
+    background-color: yellow;
+    /* clear: left; */
+}
+
+
+
+

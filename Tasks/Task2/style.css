@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(244, 138, 111);
+}
+
+h1{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.head{
+    color: darkblue;
+}
+
+#bglime{
+    background-color: greenyellow;
+}
+
+.head>span{
+    color: red;
+}
+
+#para{
+    font-size: 15px;
+    color: green;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+p>span{
+    color: black;
+    font-size: 24px;
+}
+
+.yellow-highlight{
+    background-color: yellow;
+}
+
+.violet-highlight{
+    background-color: rgb(163, 80, 240);
+}
+
+.blue-text{
+    color: blue;
+}
+
+.red-text{
+    color: red;
+}
+
+ul>li{
+    color: white;
+}
+
+

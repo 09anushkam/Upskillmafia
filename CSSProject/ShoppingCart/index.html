@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <!-- navbar starts -->
+    <div class="navbarContainer">
+        <nav>
+            <div class="logo">
+                Thala <span>7.</span>
+            </div>
+            <ul>
+                <li class="navItems">Home</li>
+                <li class="navItems">About</li>
+                <li class="navItems">Brands <span class="arrow-down"></span></li>
+                <li class="navItems">More <span class="arrow-down"></span></li>
+                <li class="navItems">Contact</li>
+            </ul>
+            <div class="searchSection">
+                <form action="" class="searchForm">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="searchBar" placeholder="Search">
+                </form>
+                <div class="cart">
+                    <i class="fa-regular fa-bag-shopping"></i> 0
+                </div>
+                <div class="profile">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar ends -->
+
+            <main>
+                <div class="main">
+                
+                    <div class="heading">
+                        <h1>Shopping Cart</h1>
+                    </div>
+                
+                    <div class="tables">
+                
+                        <div class="left-table">
+                
+                            <table class="t1">
+                                <thead>
+                                    <tr>
+                                        <th class="col1">Product</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col1">Seven By M.S.Dhoni W...</td>
+                                        <td><strong>- 1 +</strong></td>
+                                        <td>₹4,999</td>
+                                        <td class="colx">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">Seven By M.S.Dhoni W...</td>
+                                        <td><strong>- 1 +</strong></td>
+                                        <td>₹4,999</td>
+                                        <td class="colx">X</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">Seven By M.S.Dhoni W...</td>
+                                        <td><strong>- 1 +</strong></td>
+                                        <td>₹4,999</td>
+                                        <td class="colx">X</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                
+                        <div class="right-card">
+                            <div class="payment-card">
+                                <h4>Enter Coupon Code</h4>
+                                <div class="coupon">
+                                    <input type="text" placeholder="COUPON CODE">
+                                    <button>Apply Coupon</button>
+                                    <table class="t2">
+                                        <tbody>
+                                            <tr>
+                                                <td class="col1">Sub Total</td>
+                                                <td class="col2">₹4,700</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col1">Taxes(if applicable)</td>
+                                                <td class="col2">₹199</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col1">Discount</td>
+                                                <td class="col2">₹0</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col1 total"><strong>Total</strong></td>
+                                                <td class="col2 total"><strong>₹4,999</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <button class="paynow-btn">Pay Now ₹4,999</button>
+                
+                            <div class="imgs">
+                                <img src="https://img.freepik.com/premium-vector/secure-ssl-encryption-logo-secure-connection-icon-vector-illustration-ssl-certificate-icon_526569-865.jpg" alt="">
+                                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQobFdM7auLXfEYRdGhuzKWmNq9rxGLItJeUjHezonM-g&s" alt=""> -->
+                                <img src="https://mindspaceconferences.com/stemcell/wp-content/uploads/2022/08/1896px-Razorpay_logo.svg_.png" alt="">
+                                <!-- <img src="https://www.kindpng.com/picc/m/353-3532908_secure-payment-page-transparent-secure-payments-hd-png.png" alt=""> -->
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwcRbcrRgM9sCoWK_aHU6kO-Pmlr5CyF_9jUVzJ-u5Sg&s" alt="">
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </main>
+    <div class="continue-shopping">
+        <a href="#">&lt;   Continue Shopping</a>
+    </div>
+
+</body>
+</html>

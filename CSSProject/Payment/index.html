@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <main>
+
+        <!-- Left Side -->
+        <div class="left">
+            <h3 class="checkout">Checkout</h3>
+            <div class="contact-details">
+                <h2>Contact Details</h2>
+                <div class="email-inputs">
+                    <label>Email ID</label>
+                    <input type="text" placeholder="John Doe">
+                </div>
+            </div>
+
+            <div class="payment">
+                <h2>Payment</h2>
+                
+                <div class="payment-details">
+                    <div class="cards">
+                        <div class="small-cards">
+                            <i class="fa-regular fa-credit-card"></i>
+                            <h3>Crypto</h3>
+                        </div>
+                        <div class="small-cards">
+                            <i class="fa-solid fa-bitcoin-sign"></i>
+                            <h3>bitcoin</h3>
+                        </div>
+                        <div class="small-cards">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <h3>Bank</h3>
+                        </div>
+                        <div class="small-cards" id="threedotscard">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+
+                    <div class="payment-box">
+                        <label>Card Number</label>
+                        <input type="text" placeholder="John Doe">
+                        <div class="expiry-cvc">
+                            <div class="payment-inputs">
+                                <label>Expiry</label>
+                                <input type="text" placeholder="MM/YY">
+                            </div>
+                            <div class="payment-inputs">
+                                <label>CVC</label>
+                                <input type="text" placeholder="***">
+                            </div>
+                        </div>
+                        <div class="country-zip">
+                            <div class="payment-inputs">
+                                <label>Country</label>
+                                <input type="text" placeholder="India">
+                            </div>
+                            <div class="payment-inputs">
+                                <label>ZIP</label>
+                                <input type="text" placeholder="XXXXX">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="right">
+            <h1>Order Summmary</h1>
+            <div class="right-card">
+                <!-- Card -->
+                <div class="payment-card">
+                    <h4>Enter Coupon Code</h4>
+                    <div class="coupon">
+                        <div class="inputs">
+                            <input type="text" placeholder="COUPON CODE">
+                            <button>Apply Coupon</button>
+                        </div>
+                        <table class="t2">
+                            <tbody>
+                                <tr>
+                                    <td class="col1">Sub Total</td>
+                                    <td class="col2">₹4,700</td>
+                                </tr>
+                                <tr>
+                                    <td class="col1">Taxes(if applicable)</td>
+                                    <td class="col2">₹199</td>
+                                </tr>
+                                <tr>
+                                    <td class="col1">Discount</td>
+                                    <td class="col2">₹0</td>
+                                </tr>
+                                <tr>
+                                    <td class="col1 total"><strong>Total</strong></td>
+                                    <td class="col2 total"><strong>₹4,999</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <button class="paynow-btn">Pay Now ₹4,999</button>
+        
+                <div class="imgs">
+                    <img src="https://img.freepik.com/premium-vector/secure-ssl-encryption-logo-secure-connection-icon-vector-illustration-ssl-certificate-icon_526569-865.jpg"
+                        alt="">
+                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQobFdM7auLXfEYRdGhuzKWmNq9rxGLItJeUjHezonM-g&s" alt=""> -->
+                    <img src="https://mindspaceconferences.com/stemcell/wp-content/uploads/2022/08/1896px-Razorpay_logo.svg_.png"
+                        alt="">
+                    <!-- <img src="https://www.kindpng.com/picc/m/353-3532908_secure-payment-page-transparent-secure-payments-hd-png.png" alt=""> -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwcRbcrRgM9sCoWK_aHU6kO-Pmlr5CyF_9jUVzJ-u5Sg&s"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

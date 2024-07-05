@@ -1,0 +1,38 @@
+
+
+
+
+
+a{
+    text-decoration: underline; /* by default for anchor tag */
+    text-decoration: none;
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+    /* text-decoration-line: line-through; */
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+}
+
+p{
+    text-align: left;
+    text-indent: 40px;
+    letter-spacing: .1rem;
+    line-height: 1.6rem;
+    word-spacing: 10px;
+    word-spacing: -2px;
+}
+
+h1{
+    /* color: transparent; */
+    /* text-shadow: 4px 4px 6px red, 5px 5px 2px blue; */
+    /* text-shadow: 4px 4px 1px red, 8px 8px 1px blue; */
+    /* text-shadow: 4px 4px 3px black; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+

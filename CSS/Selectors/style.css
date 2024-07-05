@@ -1,0 +1,38 @@
+/* *{
+    font-family: fantasy;
+} */
+
+/* p:hover{
+    font-family: monospace;
+} */
+
+body{
+    font-size: 24px;
+}
+
+#first>p{
+    color: green;
+}
+
+#first, #second{
+    color: red;
+}
+
+#second{
+    color: blue;
+}
+
+/* !important - IMP */
+.purple{
+    color: purple !important;
+    /* font-family: monospace; */
+}
+
+.highlight{
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* Note - priority */
+/* id > Class > Element */

@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* navbar starts */
+.navbarContainer {
+    position: relative;
+    height: 4em;
+}
+
+nav {
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    height: 4em;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 2em;
+    color: #ff8705;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.logo span {
+    color: blue;
+}
+
+ul {
+    color: #8c949b;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    column-gap: 2em;
+}
+
+ul li {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
+.arrow-down {
+    position: relative;
+    top: 50%;
+    margin-left: 3px;
+    /* padding-left: 2px; */
+    /* right: 5px;  */
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    /* Adjust arrow color and size as needed */
+}
+
+.searchSection {
+    margin-right: 2em;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* column-gap: 1em; */
+    height: 50%;
+}
+
+.searchForm {
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-left: 10px;
+    width: 50%;
+}
+
+.searchBar {
+    width: 80%;
+    position: relative;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+
+}
+
+.cart {
+    position: relative;
+    display: flex;
+    width: 40px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart i {
+    width: 20px;
+}
+
+/* navbar ends */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.tables{
+    color: black;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+}
+
+main .heading{
+    color: #263238;
+    margin: 50px 0 50px 340px;
+    position: relative;
+    bottom: 0;
+}
+
+.left-table .t1{
+    padding: 0;
+    position: relative;
+    bottom: 100px;
+}
+
+.left-table .t1 .col1{
+    padding-left: 15px;
+    text-align: left;
+}
+
+.left-table .t1 th{
+    /* width: 100%; */
+    border-bottom: 1px solid #bfc6ca;
+    color: #8c949b;
+    text-align: center;
+    padding: 20px;
+}
+
+.left-table .t1 td{
+    color: #4d5050;
+    font-weight: 400;
+    /* padding: 5px; */
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.left-table .t1 .colx{
+    font-weight: 800;
+    color: #ff8705;
+}
+
+.payment-card {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccd2d7;
+    border-radius: 6px;
+}
+
+.payment-card h4{
+    margin: 0 0 8px 0;
+}
+
+.payment-card input{
+    font-size: 16px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #d8dfe7;
+    /* color: #cdd6e1; */
+    outline: none; 
+}
+
+.payment-card input:focus{
+    border: 2px solid #8c949b;
+}
+
+.payment-card button{
+    font-weight: 600;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(19, 154, 238);
+    margin: 0 0 0 10px ;
+}
+
+.payment-card button:hover{
+    cursor: pointer;
+    background-color: rgb(9, 112, 176);
+}
+
+.payment-card .t2{
+    width: 100%;
+}
+
+.payment-card .t2 .col1 {
+    text-align: left;
+}
+
+.payment-card .t2 .total{
+    color: #263238;
+}
+
+.payment-card .t2 .col2{
+    text-align: right;
+}
+
+.payment-card .t2 th,td{
+    padding: 5px;
+    color: #8c949b;
+}
+
+.right-card .paynow-btn{
+    margin: 20px 0 10px;
+    border-radius: 10px;
+    height: 60px;
+    background-color: orange;
+    color: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right-card .paynow-btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 135, 0);
+}
+
+.continue-shopping a{
+    margin: 20px 0 100px 340px;
+    text-decoration: none;
+    color: rgb(56, 55, 55);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.imgs{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    height: 30px;
+}
+
+.imgs img{
+    background-color: transparent;
+}
+

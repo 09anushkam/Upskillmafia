@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer{
+    position: relative;
+    height: 10vh;
+    width: 95%;
+    margin: auto;
+    z-index: 3;
+    
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    /* height: 10vh; */
+    width: 95%;
+    border-bottom: 2px solid rgb(174, 171, 171);
+    align-items: center;
+    background-color: white;
+}
+.greet{
+    margin-left:1em ;
+    font-size: 1.5em;
+    color: #525959;
+}
+.login{
+    width: 10%;
+    padding: 1em 2em;
+    border-radius: 25px;
+    margin-right:2em ;
+    position: relative;
+    background-color: #eaf2fe;
+    color:  #6b8dd2;
+    font-weight: 600;
+    border: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+
+
+/* navbar ends */
+
+.searchContainer{
+    position: relative;
+    height: 12vh;
+    width: 95%;
+    margin:auto;
+    margin-top: 2em;
+    z-index: 3;
+    
+}
+
+.searchSection{
+    border: 1px solid rgb(174, 171, 171);
+    border-radius: 19px;
+    position: fixed;
+    display: flex;
+    width: 95%;
+    height: 12vh;
+    align-items: center;
+    column-gap: 10px;
+    background-color: white;
+}
+.combine{
+    position: relative;
+    border: 1px solid lightgray;
+    height: 60%;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+.searchInput{
+    position: relative;
+    height: 90%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #f6f6f6;
+}
+.combine i{
+    width: 5%;
+    margin-right: 10px;
+}
+
+
+.searchButton{
+    position: relative;
+    padding: 1em 2em;
+    border-radius: 10px;
+    border: none;
+    background-color: #7323de;
+    color: white;
+}
+/* search section ends */
+
+.mainContainer{
+    position: relative;
+    height: max-content;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 20px;
+    z-index: 0;
+}
+
+.boxes{
+    border-radius: 1em;
+    height: max-content;
+    width: 80%;
+    position: relative;
+    background-color:#f4f6f6;
+    padding: 1em;
+    font-size: 1.2em;
+    line-height: 2em;
+    z-index: 0;
+}

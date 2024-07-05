@@ -1,0 +1,48 @@
+body{
+    background-color: red;
+}
+
+/* at 400px and less than 400px*/
+@media (width<=400px){
+    body{
+        background-color: green;
+    }
+}
+
+/* at 400px and less than 400px */
+@media (max-width:400px){
+    body{
+        background-color: gold;
+    }
+}
+
+/* starting from 600px */
+@media (min-width:600px) {
+    body {
+        background-color: pink;
+    }
+}
+
+
+@media (min-width:200px) and (max-width:900px){
+    body{
+        background-color: black;
+    }
+}
+
+@media (200px <= width <= 900px){
+    body{
+        background-color: black;
+    }
+}
+
+/* @media(orientation:portrait){
+    body{
+        background-color: green;
+    }
+} */
+
+
+/* Orientation */
+/* portrait : width < height */
+/* landscape : width > height */

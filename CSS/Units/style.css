@@ -1,0 +1,60 @@
+/* vw,vh,px - absolute */
+/* %,rem,em - relative */
+
+/* Avoid */
+/* html{
+    font-size: 2em;
+} */
+
+main{
+    border: 5px solid brown;
+    width: 25%;
+    /* width: 50vw; */
+}
+
+body{
+    font-size: 2em;
+}
+
+header{
+    font-size: 2em;
+}
+
+h1{
+    font-size: 32px; /* absolute */
+    font-size: 3em; /* relative to parent */
+    font-size: 3rem; /* relative to html(root) */
+}
+
+section{
+    border: 5px dashed green;
+    width: 50vw;
+}
+
+
+/* Best practices - rem */
+
+h1{
+    font-size: 3rem;
+    /* font-size: 10vw; */ /* don't use */
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,254 @@
+*{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    font-family:Arial, Helvetica, sans-serif ;
+   /* background-color: rgb(71, 184, 232); */
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    height: 12vh;
+    z-index: 6;
+
+}
+.logo{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 1em;
+    /* margin-top: 2em; */
+    /* display: inline; */
+    margin-left: 4em;
+    /* float: left; */
+}
+.username{
+    position: relative;
+    height: 3em;
+    top: 0.5em;
+    margin-right: 4em;
+    
+    padding: 1em;
+    color:#6cc9ff ;
+    border-radius: 8px;
+    background-color:#e7f6ff;
+}
+
+.hamburger{
+    position: relative;
+    top: 0.5em;
+    margin-top: 0;
+    margin-right: 2em;
+    height: 50%;
+    background: #fff;
+    display: none;
+    padding: 0;
+}
+.hamburger img{
+    display: none;
+    height: 100%;
+    top: -1em;
+}
+.sidebar{
+    z-index: 6;
+    display: none;
+    background-color:black ;
+        position: absolute;
+        height: 100vh;
+        width: 60vw;
+        left: 40vw;
+        z-index: 6;
+        align-items: center;
+}
+
+.navItems{
+    position: relative;
+    top: 1em;
+    text-align: center;
+    
+    /* margin-left: 21%; */
+    /* display: inline; */
+    /* position: fixed; */
+}
+ul{
+    top: 0.5em;
+    padding: 1em;
+    display: inline;
+}
+ul li{
+    color: rgb(107, 103, 103);
+    position: relative;
+    top: 0.5em;
+    display: inline;
+    padding-left: 4em;
+}
+
+.container{
+    margin: auto;
+    top: 12vh;
+    position: relative;
+    width: 80%;
+    height: 88vh;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.left{
+    position: relative;
+    top: 20%;
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 70%;
+    /* float: left; */
+    padding-left: 2em;
+}
+.right{
+    /* float: right; */
+    /* border: 2px solid brown; */
+    width: 50%;
+    height: 100%;
+    
+}
+
+.grey{
+    
+    line-height: 1.2;
+    font-size: 2.5em;
+    color: rgba(75,91,103,1);
+}
+.blue{
+    margin-top: 0.2em;
+    line-height: 1.2;
+    color: #06a8ff;
+}
+
+p{
+    margin-top: 0.3em;
+    color:rgba(75,91,103,1) ;
+    line-height: 1.5;
+
+}
+button{
+    color: white;
+    margin-top: 2em;
+    padding: 1em 2em;
+    border-radius: 9px;
+    outline: none;
+    border: 0;
+    background-color: #20b1ff;
+
+}
+
+.image{
+    position: relative;
+    top: 20%;
+}
+
+
+/* tablet view */
+@media (max-width:786px){
+    .container{
+        width: 100vw;
+    }
+    .left{
+        padding-top:2em ;
+        top: 0;
+        height: 88vh;
+    }
+    .grey{
+        line-height: 1;
+        font-size: 2.2em;
+    }
+    
+    .right img{
+        position: relative;
+        width: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
+        
+    }
+}
+
+
+/* mobile view */
+
+@media(max-width:376px){
+    .navItems{
+        display: none;
+    }
+    .logo{
+        margin-left: 1em;
+    }
+    .username{
+        padding-bottom: 0.5em;
+        margin-right: 1em;
+    }
+    .hamburger
+    {
+        top: 1em;
+        display: block;
+        z-index: 4;
+    }
+    .hamburger img{
+        display: block;
+    /* top: -30px; */
+    position: relative;
+        display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    }
+      
+    
+    .hamburger:focus +.sidebar ul li{
+        width: 95%;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+        color: #fff;
+        font-size: large;
+    }
+    .hamburger:focus + .sidebar ul{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+   }
+    .hamburger:focus + .sidebar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    .left,
+    .right{
+        width:100%;
+        z-index: 2;
+    }
+    .grey{
+        font-size: 2em;
+        line-height: 1;
+    }
+    .blue{
+        font-size: 1.6em;
+    }
+    button{
+        margin-top: 1em;
+        padding: 2em 3em;
+    }
+    .image{
+        top: 5%;
+    }
+
+}

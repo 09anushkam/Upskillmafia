@@ -1,0 +1,104 @@
+/* Media Queries for Tablet (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    nav .nav-left h2 {
+        font-size: 20px;
+    }
+
+    nav .nav-mid ul li {
+        margin: 10px;
+    }
+
+    nav .nav-mid a {
+        font-size: 1rem;
+    }
+
+    main .img {
+        width: 50%;
+    }
+
+    main .text {
+        width: 50%;
+        margin: 0;
+    }
+
+    main .text h1 {
+        font-size: 2.5rem;
+        line-height: normal;
+    }
+
+    main .text p {
+        font-size: 1.2rem;
+    }
+
+    main .text button {
+        width: 300px;
+        padding: 20px 15px;
+    }
+}
+
+/* Media Queries for Mobile (max-width: 365px) */
+@media only screen and (max-width: 375px) {
+
+    nav {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14rem;
+    }
+
+    nav .nav-left h2 {
+        font-size: 23px;
+    }
+
+    nav .nav-left {
+        margin-left: 0;
+    }
+
+    nav .nav-right{
+        justify-self: flex-end;
+    }
+
+    nav .nav-mid {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main .img {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    main .text {
+        width: 100%;
+        /* Modified to take up full width */
+        padding: 10px;
+        margin: 0;
+    }
+
+    main .text h1 {
+        font-size: 2rem;
+    }
+
+    main .text p {
+        font-size: 1rem;
+    }
+
+    main .text button {
+        width: 240px;
+        padding: 15px 10px;
+        border-radius: 20px;
+    }
+}

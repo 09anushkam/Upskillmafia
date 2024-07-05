@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hydrated{
+    width: 100%;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 45px;
+    background-color: white
+}
+
+nav .nav-left {
+    margin: 0 0 0 2rem;
+}
+
+nav .nav-left h2 {
+    /* font-weight: 100; */
+    color: #333;
+}
+
+nav .nav-mid ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+nav .nav-mid ul li {
+    margin: 10px;
+}
+
+nav .nav-mid a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: grey;
+}
+
+nav .nav-right {
+    margin: 0 20px 0 0;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(217, 235, 248);
+}
+
+nav .nav-right a {
+    text-decoration: none;
+    color: rgb(7, 140, 241);
+}
+
+main {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .img {
+    width: 40%;
+    padding: 20px;
+}
+
+main .text {
+    width: 50%;
+    padding: 20px;
+    margin-left: 4rem;
+}
+
+main .text h1 {
+    text-wrap: wrap;
+    font-size: 3rem;
+    color: #333;
+    /* line-height: 60px; */
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+main .text h1 span {
+    color: rgb(7, 140, 241);
+}
+
+main .text p {
+    font-size: 1.5rem;
+    color: grey;
+    text-wrap: wrap;
+    padding: 20px 0;
+    margin-bottom: 1rem;
+}
+
+main .text button {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    background-color: rgb(3, 144, 252);
+    color: white;
+    width: 250px;
+    padding: 25px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+main .text button:hover {
+    cursor: pointer;
+    background-color: rgb(4, 109, 190);
+}
