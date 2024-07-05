@@ -1,6 +1,6 @@
 # React Notes  
 
-Chai Aur Code React Js Playlist
+## Chai Aur Code React Js Playlist
 
 react  
 react-dom  
